@@ -1,3 +1,4 @@
+import { slimeList } from "../data/slimeList";
 import { logHandler } from "../helpers/logHandler";
 import { CommandInt } from "../interfaces/CommandInt";
 
@@ -8,7 +9,10 @@ export const slime: CommandInt = {
     try {
       const { channel, member } = message;
 
-      await member?.setNickname("testing");
+      const randomIndex = Math.floor(Math.random() * slimeList.length);
+      const randomNoun = slimeList[randomIndex];
+
+      await member?.setNickname(`${randomNoun}slime`);
       await channel.send("You've been slimed!");
     } catch (error) {
       logHandler.log("error", {
