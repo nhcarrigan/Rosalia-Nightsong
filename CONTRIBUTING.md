@@ -6,6 +6,14 @@ Please ensure all pull requests and contributions comply with the [Developer Cer
 
 First, fork this repository to your own account. Then use `git clone <url>` to bring your forked repository down to your local machine (remember to get the URL for _your_ repository, not the original). Optionally, use `git remote add upstream <url>` to add the original repository as the upstream (this is helpful for keeping your fork up-to-date).
 
+Copy the environment variable template with `cp sample.env .env`, and configure the following values:
+
+- `DISCORD_TOKEN` - The bot token for your application. You get this from the Discord Developer Portal.
+
+Install the dependencies with `npm ci`, then make your code changes. Run `npm run build` to compile the TypeScript into JavaScript, and `npm start` to run the program.
+
+Before submitting any changes, ensure that the linter passes with `npm run lint`, and that tests pass with `npm run test`.
+
 ## Claiming an Issue
 
 All of our issues are open to contributors! If you see an open issue you would like to work on, please comment on the issue so we may assign it to you.

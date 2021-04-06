@@ -1,18 +1,16 @@
-# Project Name
+# Rosalia Nightsong
 
-Project Description
+A quick bot for running specific commands in my server.
 
-![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/new-repo-template)
-![](https://img.shields.io/codeclimate/issues/nhcarrigan/new-repo-template)
-![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/new-repo-template)
-![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/new-repo-template)
-![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/new-repo-template)
+![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/rosalia-nightsong)
+![](https://img.shields.io/codeclimate/issues/nhcarrigan/rosalia-nightsong)
+![](https://img.shields.io/codeclimate/tech-debt/nhcarrigan/rosalia-nightsong)
+![](https://img.shields.io/lgtm/alerts/github/nhcarrigan/rosalia-nightsong)
+![](https://img.shields.io/lgtm/grade/javascript/github/nhcarrigan/rosalia-nightsong)
 
 ## Live Version
 
-This page is not yet deployed.
-
-<!--This page is currently deployed. [View the live website.]()-->
+View the bot and play in our [discord server](http://chat.nhcarrigan.com).
 
 ## Feedback and Bugs
 
