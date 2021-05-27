@@ -1,7 +1,7 @@
 {
   "name": "rosalia-nightsong",
   "version": "0.0.0",
-  "description": "A discord bot that does random things for my server.",
+  "description": "Rosalia is an RPG game built in to a Discord bot!",
   "main": "prod/index.js",
   "scripts": {
     "prebuild": "rm -rf ./prod",
@@ -47,8 +47,11 @@
     "prettier": "2.3.0"
   },
   "dependencies": {
+    "@sentry/integrations": "^6.4.1",
+    "@sentry/node": "^6.4.1",
     "discord.js": "^12.5.3",
     "dotenv": "^10.0.0",
+    "mongoose": "^5.12.11",
     "winston": "^3.3.3"
   }
 }

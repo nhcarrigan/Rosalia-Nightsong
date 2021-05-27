@@ -1,6 +1,6 @@
 # Rosalia Nightsong
 
-A quick bot for running specific commands in my server.
+Rosalia is an RPG game built in to a Discord bot!
 
 ![](https://img.shields.io/codeclimate/maintainability/nhcarrigan/rosalia-nightsong)
 ![](https://img.shields.io/codeclimate/issues/nhcarrigan/rosalia-nightsong)
